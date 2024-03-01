@@ -1,0 +1,1 @@
+region:Europe;subregion:Central Europe;latng:47,20;area:93028;population:9749763;

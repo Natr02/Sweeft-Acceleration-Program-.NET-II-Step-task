@@ -1,0 +1,1 @@
+region:Oceania;subregion:Australia and New Zealand;latng:-41,174;area:270467;population:5084300;

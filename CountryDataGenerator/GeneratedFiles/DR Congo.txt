@@ -1,0 +1,1 @@
+region:Africa;subregion:Middle Africa;latng:0,25;area:2344858;population:108407720;

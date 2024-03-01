@@ -1,0 +1,1 @@
+region:Americas;subregion:Central America;latng:9,-80;area:75417;population:4314768;

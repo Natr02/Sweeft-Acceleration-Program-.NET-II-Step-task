@@ -1,0 +1,1 @@
+region:Africa;subregion:Eastern Africa;latng:15,39;area:117600;population:5352000;

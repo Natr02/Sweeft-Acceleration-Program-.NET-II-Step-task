@@ -1,0 +1,1 @@
+region:Africa;subregion:Southern Africa;latng:-29,24;area:1221037;population:59308690;

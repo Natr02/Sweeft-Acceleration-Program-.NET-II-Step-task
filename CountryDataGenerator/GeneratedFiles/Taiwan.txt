@@ -1,0 +1,1 @@
+region:Asia;subregion:Eastern Asia;latng:23,5,121;area:36193;population:23503348;

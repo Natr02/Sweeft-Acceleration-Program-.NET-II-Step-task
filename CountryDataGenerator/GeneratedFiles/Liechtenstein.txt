@@ -1,0 +1,1 @@
+region:Europe;subregion:Western Europe;latng:47,266666,9,533334;area:160;population:38137;

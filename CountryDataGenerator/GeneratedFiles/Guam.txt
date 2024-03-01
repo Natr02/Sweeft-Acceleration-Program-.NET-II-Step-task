@@ -1,0 +1,1 @@
+region:Oceania;subregion:Micronesia;latng:13,466666,144,78334;area:549;population:168783;

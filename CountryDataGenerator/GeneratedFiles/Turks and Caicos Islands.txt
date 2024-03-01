@@ -1,0 +1,1 @@
+region:Americas;subregion:Caribbean;latng:21,75,-71,583336;area:948;population:38718;

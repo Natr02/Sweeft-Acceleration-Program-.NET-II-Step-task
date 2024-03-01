@@ -1,0 +1,1 @@
+region:Asia;subregion:Southern Asia;latng:30,70;area:881912;population:220892340;

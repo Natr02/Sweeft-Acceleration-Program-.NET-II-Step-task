@@ -1,0 +1,1 @@
+region:Africa;subregion:Western Africa;latng:8,-2;area:238533;population:31072944;

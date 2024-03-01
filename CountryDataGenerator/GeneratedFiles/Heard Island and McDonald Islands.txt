@@ -1,0 +1,1 @@
+region:Antarctic;subregion:;latng:53,0818,73,5042;area:412;population:0;

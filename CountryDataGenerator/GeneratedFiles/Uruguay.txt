@@ -1,0 +1,1 @@
+region:Americas;subregion:South America;latng:-33,-56;area:181034;population:3473727;

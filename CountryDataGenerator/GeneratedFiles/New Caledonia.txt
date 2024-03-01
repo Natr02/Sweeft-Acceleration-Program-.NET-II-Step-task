@@ -1,0 +1,1 @@
+region:Oceania;subregion:Melanesia;latng:-21,5,165,5;area:18575;population:271960;

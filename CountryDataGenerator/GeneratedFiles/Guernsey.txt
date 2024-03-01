@@ -1,0 +1,1 @@
+region:Europe;subregion:Northern Europe;latng:49,466667,-2,5833333;area:78;population:62999;

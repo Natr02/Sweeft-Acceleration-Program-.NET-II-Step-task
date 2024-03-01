@@ -1,0 +1,1 @@
+region:Americas;subregion:North America;latng:46,833332,-56,333332;area:242;population:6069;

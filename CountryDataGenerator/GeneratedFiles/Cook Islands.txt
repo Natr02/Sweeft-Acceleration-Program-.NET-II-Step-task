@@ -1,0 +1,1 @@
+region:Oceania;subregion:Polynesia;latng:-21,233334,-159,76666;area:236;population:18100;

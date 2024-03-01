@@ -1,0 +1,1 @@
+region:Asia;subregion:Central Asia;latng:48,0196,66,9237;area:2724900;population:18754440;
