@@ -1,0 +1,21 @@
+using System;
+
+public class StaircaseClimbing
+{
+    public static int CountWays(int n)
+    {
+        if (n <= 1)
+            return 1;
+
+        return CountWays(n - 1) + CountWays(n - 2);
+    }
+
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Enter the number of steps in the staircase:");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        int ways = CountWays(n);
+        Console.WriteLine("Number of ways to climb " + n + " steps: " + ways);
+    }
+}
