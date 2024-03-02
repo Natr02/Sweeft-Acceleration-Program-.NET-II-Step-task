@@ -1,0 +1,55 @@
+using System;
+
+class Program
+{
+    #region Helper Methods
+
+    //  check if  balanced
+    public static bool isBalanced(string exp)
+    {
+        bool flag = true;
+        int count = 0;
+
+        for (int i = 0; i < exp.Length; i++)
+        {
+            if (exp[i] == '(')
+            {
+                count++;
+            }
+            else if (exp[i] == ')')
+            {
+                count--;
+            }
+
+            if (count < 0)
+            {
+                flag = false;
+                break;
+            }
+        }
+
+        if (count != 0)
+        {
+            flag = false;
+        }
+
+        return flag;
+    }
+
+    #endregion
+
+    #region Main Method
+
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Enter an expression to check for balanced parentheses:");
+        string expression = Console.ReadLine();
+
+        if (isBalanced(expression))
+            Console.WriteLine("Balanced");
+        else
+            Console.WriteLine("Not Balanced");
+    }
+
+    #endregion
+}
