@@ -1,0 +1,43 @@
+using System;
+using System.Threading.Tasks;
+
+class Program
+{
+    static async Task Main()
+    {
+        // Create tasks for continuous output and chosen one message
+        Task outputTask = Task.Run(() => ContinuousOutput());
+        Task messageTask = Task.Run(() => ChosenOneMessage());
+
+        // Wait for both tasks to finish
+        await Task.WhenAll(outputTask, messageTask);
+    }
+
+    static async Task ContinuousOutput()
+    {
+        while (true)
+        {
+            Console.ForegroundColor = ConsoleColor.Green; // Set color to green
+            Console.Write("1");
+            await Task.Delay(100); // Reduce the delay to 100 milliseconds
+            Console.Write("0");
+            await Task.Delay(100); // Reduce the delay to 100 milliseconds
+            Console.ResetColor(); // Reset color after printing
+        }
+    }
+
+    static async Task ChosenOneMessage()
+    {
+        while (true)
+        {
+            await Task.Delay(5000);
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Neo, you are the chosen one");
+            Console.ResetColor();
+
+           
+        }
+    }
+}
+
