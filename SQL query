@@ -1,0 +1,6 @@
+-- SQL query to return all teachers who teach the student named "გიორგი"
+SELECT DISTINCT T.*
+FROM Teacher T
+INNER JOIN TeacherPupil TP ON T.teacher_id = TP.teacher_id
+INNER JOIN Pupil P ON TP.pupil_id = P.pupil_id
+WHERE P.first_name = 'გიორგი';
