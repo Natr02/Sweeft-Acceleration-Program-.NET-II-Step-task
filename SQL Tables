@@ -1,0 +1,26 @@
+CREATE TABLE Teacher (
+    teacher_id INT PRIMARY KEY,
+    first_name VARCHAR(255),
+    last_name VARCHAR(255),
+    gender VARCHAR(10),
+    subject VARCHAR(255)
+);
+
+CREATE TABLE Pupil (
+    pupil_id INT PRIMARY KEY,
+    first_name VARCHAR(255),
+    last_name VARCHAR(255),
+    gender VARCHAR(10),
+    class VARCHAR(255)
+);
+
+-- Create  many-to-many relationship
+CREATE TABLE TeacherPupil (
+    teacher_id INT,
+    pupil_id INT,
+    PRIMARY KEY (teacher_id, pupil_id),
+    FOREIGN KEY (teacher_id) REFERENCES Teacher(teacher_id),
+    FOREIGN KEY (pupil_id) REFERENCES Pupil(pupil_id)
+);
+
+
