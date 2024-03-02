@@ -1,0 +1,36 @@
+using System;
+
+partial class Program
+{
+    static void Main()
+    {
+        int[] availableCoins = { 50, 20, 10, 5, 1 };
+
+        Console.WriteLine("Enter the amount in tetri:");
+        int amount = int.Parse(Console.ReadLine());
+
+        int[] result = GetMinimumCoins(amount, availableCoins);
+
+        Console.WriteLine("Minimum number of coins needed:");
+        for (int i = 0; i < availableCoins.Length; i++)
+        {
+            if (result[i] > 0)
+            {
+                Console.WriteLine($"{availableCoins[i]} tetri coins: {result[i]}");
+            }
+        }
+    }
+
+    static int[] GetMinimumCoins(int amount, int[] availableCoins)
+    {
+        int[] result = new int[availableCoins.Length];
+
+        for (int i = 0; i < availableCoins.Length; i++)
+        {
+            result[i] = amount / availableCoins[i];
+            amount %= availableCoins[i];
+        }
+
+        return result;
+    }
+}
